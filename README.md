@@ -38,13 +38,16 @@ data_collection_tool/
 ├── config/
 │   └── config.yaml
 ├── data/
+│   ├── csv/
+│   └── json/
+├── logging_info/
+|   └── app.log
 ├── src/
 │   ├── __init__.py
 │   ├── fetch.py
 │   ├── scrape.py
-|    |── test.py
+|   |── test.py
 │   └── utils.py
-├── venv/
 ├── main.py
 ├── README.md
 └── requirements.txt
@@ -56,6 +59,9 @@ data_collection_tool/
 
 - Python 3.x
 - `pip` (Python package installer)
+- `Proxies API` It might not always necessary but very useful to have a proxy API to avoid getting blocked by the website.
+- `BeautifulSoup4` and `requests` libraries
+- `PyYAML` library for parsing the configuration file
 
 ### Creating a Virtual Environment
 

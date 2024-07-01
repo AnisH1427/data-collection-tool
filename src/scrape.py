@@ -6,6 +6,12 @@ import random
 import json
 
 def scrape_data(urls, target_element=None):
+    '''
+    This function scrapes data from a list of URLs and returns a DataFrame
+    :param urls:
+    :param target_element:
+    :return:
+    '''
     results = []
     for url in urls:
         # existing code...
@@ -23,6 +29,7 @@ def scrape_data(urls, target_element=None):
             'url':url,
             'render':'true'
         }
+        # Load the webpage
         html = requests.get("http://api.scraperapi.com", params=payload)
         if ("Robot or human" in html.text):
             print(True)

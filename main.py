@@ -9,6 +9,15 @@ logging.basicConfig(filename='logging_info/app.log',filemode='a',level=logging.I
 import traceback
 
 def main():
+    """
+    Main function to fetch and scrape data from the data sources
+    :configures yaml file with data sources:
+    :if data is API than fetch_data:
+    :if data is website url then scrape_data:
+    :logging information is saved on app.log file:
+    :final output data is saved on data directory in json and csv format:
+
+    """
     # Load config
     config = load_config()
 
