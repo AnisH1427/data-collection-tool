@@ -1,0 +1,13 @@
+data_sources:
+  - name: USDA's Corn Production of Vergenia
+    type: fetch
+    url: 'https://quickstats.nass.usda.gov/api/api_GET/?key=AF79DE52-A47B-3E15-A35F-03C211866A21&commodity_desc=CORN&year__GE=2020&state_alpha=VA'
+
+  - name: Fertilizers from Walmart
+    type: scrape
+    url: 'https://www.walmart.com/ip/Pennington-Rejuvenate-Organic-and-Natural-All-Purpose-Plant-Food-Fertilizer-Feeds-4-Months-4-lb/1435190801'
+    target_element:
+      price: 'span[itemprop="price"]'
+      name: 'h1[itemprop="name"]'
+      rating: 'span[class="rating-number"]'
+      detail: 'script[id="__NEXT_DATA__"]'
