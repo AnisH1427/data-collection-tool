@@ -1,0 +1,4 @@
+INFO:root:Fetching data from https://quickstats.nass.usda.gov/api/api_GET/?key=AF79DE52-A47B-3E15-A35F-03C211866A21&commodity_desc=CORN&year__GE=2020&state_alpha=VA
+INFO:root:Successfully collected data for USDA's Corn Production of Vergenia
+INFO:root:Scraping data from ['https://www.walmart.com/ip/Pennington-Rejuvenate-Organic-and-Natural-All-Purpose-Plant-Food-Fertilizer-Feeds-4-Months-4-lb/1435190801', 'https://www.walmart.com/ip/Scotts-22315-Turf-Builder-Lawn-Food-37-5-Lbs-Quantity-1/29937847', 'https://www.walmart.com/ip/Expert-Gardener-Tomato-Vegetable-Garden-Plant-Food-Fertilizer-12-10-5-Fertilizer-4-lb/1841213178', 'https://www.walmart.com/ip/Farmer-s-Secret-Fruit-Bloom-Booster-Fertilizer-32oz-Super-Concentrated-Increases-Flowering-Yield-All-Varieties-Fruits-Vegetables-Flowers/5217441471']
+INFO:root:Successfully collected data for Fertilizers from Walmart

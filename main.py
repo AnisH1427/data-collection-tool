@@ -4,7 +4,7 @@ from src.scrape import scrape_data
 from src.utils import load_config
 import os
 import pandas as pd
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(filename='logging_info/app.log',filemode='a',level=logging.INFO)
 
 import traceback
 
